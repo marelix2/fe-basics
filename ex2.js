@@ -2,10 +2,12 @@
 
 const shouldUserBeAutorized = (name, age) => {
   // your code
-  return false
+  return !!name && age >= 18 
 }
 
-console.log(' Marek, 18 lat', shouldUserBeAutorized('Marek', 18))
+console.log(' Marek, 18 lat:', shouldUserBeAutorized('Marek', 18))
 console.log(' brak imienia, 20 lat:', shouldUserBeAutorized('', 20))
 console.log(' null, 20 lat:', shouldUserBeAutorized('', 18))
-console.log(' Marek, 5 lat', shouldUserBeAutorized('Marek', 18))
+console.log(' Marek, 5 lat:', shouldUserBeAutorized('Marek', 5))
+console.log(' Marek, brak wieku:', shouldUserBeAutorized('Marek'))
+console.log(' Marek, brak wieku:', shouldUserBeAutorized('Marek', '18'))

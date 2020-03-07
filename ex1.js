@@ -3,7 +3,7 @@
 
 const isNumber = value => {
  // your code
- return false
+ return typeof value === "number"
 }
 
 console.log('cyfra 1:',isNumber(1))
