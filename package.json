@@ -1,0 +1,21 @@
+{
+  "name": "fe-basics",
+  "version": "1.0.0",
+  "description": "Projekt z zadaniami na prezentacje",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ex1": "node ex1.js",
+    "ex2": "node ex2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marelix2/fe-basics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marelix2/fe-basics/issues"
+  },
+  "homepage": "https://github.com/marelix2/fe-basics#readme"
+}
