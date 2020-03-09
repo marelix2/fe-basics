@@ -1,1 +1,1 @@
-Projekt z zadaniami na prezentacje
+W tej część przygotowano zadania związane z operowaniem na kolekcjach
