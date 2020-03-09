@@ -8,13 +8,13 @@
 
   const insertSpaces = lyr => {
     // your code
-    return lyr
+    return lyr.map( word => `${word} `)
   }
 
   const updateLyrics = lyr => {
     const newLyrics = [...insertSpaces(lyr)]
     // your code
-    return ""
+    return newLyrics.reduce((accumulator, word) =>  accumulator + word, "")
   }
 
   console.log(updateLyrics(lyrics))
