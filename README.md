@@ -1,5 +1,10 @@
-Celem tego zadania jest zainicjowanie repo z wykożystaniem npm oraz wykonanie pierwszych skryptow.
+# Zadanie 1
 
-tl;dr;
+Celem tego zadania jest zainicjowanie repo z wykożystaniem  package menagera `npm` oraz wykonanie pierwszych skryptów.
 
-npm init npm run script_name
+## tl;dr;
+
+```javascript
+npm init 
+npm run script_name
+```

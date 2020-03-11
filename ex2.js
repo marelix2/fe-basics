@@ -14,6 +14,8 @@ const undefinedValue = undefined
 
 console.log('wynik dodawania nulla i undefined: ', nullValue + undefinedValue)
 
+console.log('Infinity: ', intNumber / 0);
+
 const NaNValue = general / intNumber
 console.log('NaN: ', NaNValue)
 
